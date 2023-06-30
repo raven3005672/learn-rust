@@ -32,3 +32,19 @@ loop {
     break;  // 跳出循环
     continue;  // 跳过本次循环
 }
+
+
+if bool {
+
+} else if bool {
+
+} else {
+
+}
+
+& // reference
+&mut // mutable reference
+
+let s = "asdfasdf"; // 类型为 &str
+let ss = String::from("sadfasdf"); // 类型为 String
+let ssss = &ss[..2]; // 类型为 &str
